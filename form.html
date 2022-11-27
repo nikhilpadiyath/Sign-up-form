@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="form.css" />
+    <script src="form.js"></script>
+  </head>
+  <body>
+    <div class="left">
+      <div id="greenleaf">
+      <img id="photo" src="./Pics/unsplash.jpg" alt="Picture of plant" />
+      <p id="footnote">
+        Photo by <a id="footnav" href=""> Haley West </a> on
+        <a id="footnav" href=""> Unsplash</a>
+      </p>
+      </div>
+      <div class="logo">
+        <img
+          id="logo"
+          src="./Pics/odin-lined.png"
+          alt="Odin logo"
+          height="100px"
+        />
+        <h1 id="odin">ODIN</h1>
+      </div>
+    </div>
+    <div class="right">
+      <div class="introduction">
+        <p id="intro">
+          This is not a real online service! You know you need something<br />
+          like this in your life to help you realize your deepest dreams.<br />
+          Sign up <em>now</em> to get started.<br /><br />You <em>know</em> you
+          want to.
+        </p>
+      </div>
+      <div class="signup-form">
+        <form action="#" method="post">
+          <h2>Let's do this!</h2>
+          <div id="fields">
+          <div class="fields-left">
+            <label for="first-name">FIRST NAME</label>
+            <input type="text" id="first-name" name="first-name" />
+            <label for="mailid">EMAIL</label>
+            <input type="email" id="mailid" name="mail-id" />
+            <label for="passwordkey">PASSWORD</label>
+            <input type="password" id="passwordkey" name="passwordkey" required/>
+            <p id="error">*Password do not match</p>
+          </div>
+          <div class="fields-right">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" id="last-name" name="last-name" />
+
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="confirm">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm" name="confirmpass" />
+          </div>
+          </div>
+          <div id="btn_submit">
+            <button type="submit">Create Account</button>
+          </div>
+        
+        </form>
+      </div>
+      <div class="footer">
+        <p id="footer">
+          Already have an account? <a href="https://www.google.com"> Log in</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
